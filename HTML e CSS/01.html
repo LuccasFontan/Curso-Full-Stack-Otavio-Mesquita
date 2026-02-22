@@ -3,9 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aula 01</title>
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-size: cover;
+            background-position: top center;
+            background-image: url(https://images.unsplash.com/photo-1637363990764-de84fd247b7d?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+        }
+        #heading {
+            padding: 15px;
+            background: rgba(0,0,0,0.7);
+        }
+        .nav{
+            justify-content: space-between;
+            display: flex;
+            margin: 0 auto;
+            width: 90%;
+        }
+        .titulo{
+            padding: 15px;
+        }
+        .logo{
+            font-size: 35px;
+            text-transform: uppercase;
+            color: white;
+            text-decoration: none;
+            font-family: sans-serif;
+        }
+        .entrar{
+            font-size: 15px;
+            text-transform: uppercase;
+            color: white;
+            text-decoration: none;
+            font-family: sans-serif;
+            padding: 15px;
+        }
+        .login{
+            display: flex;
+            align-items: center;
+        }
+    </style>
 </head>
 <body>
-    
+    <header id="heading">
+        <div class="nav">
+            <h1 class="titulo">
+                <a href="#" class="logo">Netflix</a>
+            </h1>
+            <h1 class="login">
+                <a href="#" class="entrar">Entrar</a>
+            </h1>
+        </div>
+    </header>
 </body>
 </html>
